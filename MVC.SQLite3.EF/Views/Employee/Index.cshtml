@@ -1,0 +1,11 @@
+﻿@model List< Employee>
+<div class="text-center">
+    <h1 class="display-4" >Employees</h1>
+    <p>List of Employees</p>
+    foreach(var employee in Model)
+    {
+        <p>@employee.FirstName @employee.LastName</p>
+    }
+
+
+</div>
